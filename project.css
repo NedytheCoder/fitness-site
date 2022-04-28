@@ -1,0 +1,258 @@
+body {
+    margin: 0px;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    color: white;
+}
+
+#one,
+#four,
+#six,
+#eight {
+    background-color: rgb(0, 80, 129);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* one div */
+#one h3 {
+    font-size: medium;
+}
+
+.q {
+    flex-basis: 55%;
+}
+
+light {
+    font-weight: lighter;
+}
+
+/* two div */
+#two {
+    background-image: url("../img/1128335.jpg");
+    background-size: cover;
+}
+
+h1 {
+    margin-top: auto;
+    align-self: center;
+}
+
+.t-write {
+    flex-basis: 55%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.g {
+    margin-bottom: -20px;
+    font-size: 600%;
+}
+
+.f {
+    letter-spacing: 0.1em;
+    font-size: 250%;
+}
+
+#form {
+    background-color: rgb(249, 102, 6);
+    flex-basis: 10%;
+    padding: 1%;
+    height: 100%;
+}
+
+input {
+    width: 98%;
+    margin-bottom: 4%;
+    border: none;
+    border-radius: 2px;
+}
+
+.us,
+h5 {
+    text-align: center;
+    margin: 0px;
+}
+
+.us {
+    line-height: 1%;
+    margin-top: 8%;
+}
+
+h5 {
+    margin-bottom: 6%;
+}
+
+textarea {
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4%;
+}
+
+.formb {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 15%;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: auto;
+}
+
+/* three div */
+#three {
+    color: black;
+}
+
+.write2,
+.write3 {
+    flex-basis: 35%;
+    padding: 2%;
+}
+
+.blue {
+    color: rgb(0, 80, 129);
+}
+
+.s16 {
+    color: rgb(249, 102, 6);
+}
+
+.thr {
+    margin-bottom: 0.1%;
+}
+
+/* four */
+#four {
+    height: auto;
+}
+
+.imgg {
+    background-size: cover;
+    width: 35%;
+    margin-right: 4%;
+}
+
+.imggg {
+
+    flex-basis: 35%;
+}
+
+.lorem {
+    margin-bottom: 2%;
+}
+
+.in {
+    text-indent: 5px;
+}
+
+.cont {
+    margin-top: 4%;
+    background-color: rgb(249, 102, 6);
+    color: white;
+    width: 20%;
+    height: 15%;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: auto;
+}
+
+/* five */
+#five {
+    padding-top: 2%;
+}
+
+.fir {
+    flex-basis: 20%;
+    margin-right: 7%;
+}
+
+.firs {
+    flex-basis: 20%;
+}
+
+.icon {
+    width: 20%;
+    color: rgb(0, 80, 129);
+}
+
+.s {
+    color: rgb(0, 80, 129);
+}
+
+.p {
+    color: black;
+}
+
+/* six */
+.im {
+    background-size: cover;
+    width: 35%;
+}
+
+.tex {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-basis: 35%;
+    margin-right: 4%;
+}
+
+.cont1 {
+    margin-top: 4%;
+    background-color: rgb(249, 102, 6);
+    color: white;
+    width: 20%;
+    height: 15%;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: auto;
+}
+
+/* seven */
+#seven {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.col1 {
+    flex-basis: 20%;
+    margin-right: 7%;
+}
+
+.col2 {
+    flex-basis: 20%;
+}
+
+.name,
+.namee {
+    color: rgb(249, 102, 6);
+    font-size: large;
+}
+
+/* eight*/
+.foot {
+    text-align: center;
+}
