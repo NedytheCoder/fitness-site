@@ -10,6 +10,8 @@
     #seven,
     #eight {
         display: block;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     body {

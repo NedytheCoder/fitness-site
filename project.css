@@ -51,7 +51,7 @@ button,
 
 /* two div */
 #two {
-    background-image: url("../img/1128335.jpg");
+    background-image: url("img/1128335.jpg");
     height: fit-content;
     background-size: cover;
     background-repeat: no-repeat;
@@ -183,6 +183,7 @@ textarea {
     border-radius: 2px;
     text-align: center;
     padding: auto;
+    margin-top: 0px;
 }
 
 /* five */
@@ -235,6 +236,7 @@ textarea {
     border-radius: 2px;
     text-align: center;
     padding: auto;
+    margin-bottom: 5%;
 }
 
 /* seven */
