@@ -1,12 +1,14 @@
 body {
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 #one,
 #two,
 #three,
 #four,
-#five,
+#five, 
 #six,
 #seven,
 #eight {
@@ -43,14 +45,17 @@ button,
     flex-basis: 55%;
 }
 
-light {
+.light {
     font-weight: lighter;
 }
 
 /* two div */
 #two {
     background-image: url("../img/1128335.jpg");
+    height: fit-content;
     background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
 }
 
 h1 {
@@ -61,7 +66,7 @@ h1 {
 .t-write {
     flex-basis: 55%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    /*margin-bottom: 10%;*/
 }
 
 .g {
@@ -72,6 +77,7 @@ h1 {
 .f {
     letter-spacing: 0.1em;
     font-size: 250%;
+    /* padding-bottom: 20px; */
 }
 
 #form {
